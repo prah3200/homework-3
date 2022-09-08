@@ -21,6 +21,7 @@ h2 {
     Line-height: 28px;
     color:#544837 ;
     margin: 0 0 30px;
+    text-align: center;
 }
 
 h3 {
@@ -38,26 +39,34 @@ p {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+   }
+
+.container h2 {
+    font-size: 36px;
+    line-height: 44px;    
+    color: #2F281E;
+    padding-bottom: 50px;   
 }
 
 .row {
     overflow: hidden;
 }
 
-
 .col {
     float:left;
+    max-width: 25%;
 }
 
-.first-section .col {
+.superpowers .col {
     width: 50%;
 }
 
-.first-section .col:first-child {
+.superpowers .col:first-child {
     padding: 97px 0;
 }
 
 .btn {
+    text-decoration: none;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -72,7 +81,46 @@ p {
     border: none;
     cursor: pointer;
     transition: all ease-in-out 0.2s;
+    
 }
 .btn:hover {
     background-color:aqua;
    }
+
+.icon {
+    padding: 0 0 30px;
+}
+.textholder {
+    padding-right: 40px;
+}
+
+.superpowers .col{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container  {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnsecond {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color:#FF9900 ;
+    color: #fff;
+    padding: 13px;
+    display: inline-block;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 180px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+  }
+.btnsecond:hover {
+    color:black;
+}
